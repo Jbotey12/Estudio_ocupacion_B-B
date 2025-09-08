@@ -21,17 +21,22 @@ El objetivo final es anticipar la demanda para optimizar la gestión de precios,
 
 **2. Contenidos del Repositorio**
 
-"web_scraping_aemet (1).ipynb": 
+- web_scraping_aemet (1).ipynb: 
 Contiene los notebooks y scripts utilizados para la extracción de datos climáticos históricos desde la AEMET.
 
-"Preprocesamiento_B&B.ipynb": 
+- Preprocesamiento_B&B.ipynb" 
 Incluye el código donde se limpian y transforman los datos, generando nuevas variables y un dataset final listo para entrenar modelos.
 
-"Predicción_ocupación_B&B.ipynb": 
+- Predicción_ocupación_B&B.ipynb" 
 Incluye el código que construye el modelo de aprendizaje automático con el objetivo de predecir la ocupación diaria del establecimiento turístico en función de una serie de variables.
 
-"PowerBI.pbix": Dashboard interactivo en PowerBI.
+- PowerBI.pbix: Dashboard interactivo en PowerBI.
 
+- clima_completo.csv: dataframe extraido mediante el código de "web_scraping_aemet (1).ipynb". Contiene la temperatura media y la precipitación diaria de la estación de vilassar de dalt desde el 31/03/2021 hasta el 19/04/2025.
+  
+- df_final.csv: dataframe resultado de el código "Preprocesamiento_B&B.ipynb". Contiene la información necesaria para realizar el estudio de predicción.
+
+- df_final_con_resultados: dataframe resultado de el código "Predicción_ocupación_B&B.ipynb". Contiene el dataframe a estudiar con sus predicciones y error.
 
 
 
